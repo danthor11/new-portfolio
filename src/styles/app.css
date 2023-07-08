@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* NAVBAR ESTILOS */
+
+.link-items {
+  transition: all 0.3s ease;
+  @apply inline-block p-1 text-xl mx-3 hover:text-zinc-400 text-black;
+  cursor: pointer;
+}
+
+.link-items-active {
+  @apply inline-block p-1 text-xl mx-3 text-zinc-400;
+  cursor: text;
+}
+
+.menu-active {
+  @apply left-0  shadow-sm px-2 py-2 bg-white !important;
+}
+
+.menu-active a {
+  @apply py-2  rounded border w-full mx-auto   hover:bg-blue-300;
+}
+
+/* CONTAC ME SECTION */
+
+.form-input {
+  @apply py-4 px-6 bg-slate-200 rounded-lg  text-base border transition-all border-neutral-200 placeholder:uppercase;
+}
+
+.form-btn {
+  @apply py-4 px-6 bg-blue-500 text-slate-50 transition-all border hover:bg-blue-400 rounded-md font-bold font-sans disabled:bg-blue-400;
+}
+
+/* PROJECTS SECTION */
+
+.repository-link img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icons-social-media {
+  filter: invert(99%) sepia(1%) saturate(1353%) hue-rotate(236deg)
+    brightness(116%) contrast(87%);
+}
