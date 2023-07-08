@@ -1,0 +1,1 @@
+import{j as e}from"./jsx-runtime.391947bd.js";import"./index.ed373d49.js";const r=()=>e.jsx("div",{className:"w-full py-8 flex flex-col bg-blue-600 items-center relative",children:e.jsx("h2",{className:"text-lg  text-slate-50 font-light",children:"Developed by Daniel Porras."})});export{r as default};
