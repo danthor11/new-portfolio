@@ -36,7 +36,7 @@ const Presentation = () => {
             <a
               className="py-3 px-4  font-semibold text-md  bg-white 
                         border rounded  hover:bg-gray-200 hover:border-gray-500 transition-colors"
-              href={"../../Cv-Daniel_Porras.pdf"}
+              href={"/new-portfolio/Cv-Daniel_Porras.pdf"}
               download
             >
               Download my CV
@@ -46,7 +46,7 @@ const Presentation = () => {
         <div className="flex-1">
           <img
             className="border-4 border-slate-900 flex1 presentation-image  mx-auto max-h-96 w-auto object-center transition-all hover:backdrop-filter"
-            src={"../../images/me.jpeg"}
+            src={"/new-portfolio/images/me.jpeg"}
             alt="my photo"
           />
         </div>

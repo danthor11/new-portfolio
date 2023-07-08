@@ -35,23 +35,23 @@
         },
         {
             "label":"Postgres",
-            "url_image":"/images/postgres.png"
+            "url_image":"/new-portfolio/images/postgres.png"
         },
         {
             "label":"Laravel",
-            "url_image":"/images/laravel.png"
+            "url_image":"/new-portfolio/images/laravel.png"
         },
         {
             "label":"Livewire",
-            "url_image":"/images/livewire.png"
+            "url_image":"/new-portfolio/images/livewire.png"
         },
         {
             "label":"PHP",
-            "url_image":"/images/php.png"
+            "url_image":"/new-portfolio/images/php.png"
         },
         {
             "label":"Next",
-            "url_image":"/images/next.png"
+            "url_image":"/new-portfolio/images/next.png"
         }
     ]
 }

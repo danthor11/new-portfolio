@@ -40,9 +40,8 @@ const Project = (project: ProjectsProps) => {
                 style={{
                   backgroundColor: tech.color,
                   boxShadow: `
-                    box-shadow: 0px 0px 16px -3px  ${tech.color};
-                    -webkit-box-shadow: 0px 0px 16px -3px  ${tech.color};
-                    -moz-box-shadow: 0px -1px 16px -3px  ${tech.color};
+                    box-shadow: 0px 0px 16px -3px  ${tech.color}
+                   
                 `,
                 }}
               >

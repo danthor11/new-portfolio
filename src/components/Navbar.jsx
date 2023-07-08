@@ -11,16 +11,16 @@ const Navbar = () => {
           Daniel Porras
         </h2>
         <div className="flex-row items-center mx-9 invisible hidden sm:visible sm:flex">
-          <a className="link-items-active" href="/">
+          <a className="link-items-active" href="/new-portfolio">
             Home
           </a>
-          <a className="link-items" href="/#skills">
+          <a className="link-items" href="/new-portfolio/#skills">
             Skills
           </a>
-          <a className="link-items" href="/#projects">
+          <a className="link-items" href="/new-portfolio/#projects">
             Projects
           </a>
-          <a className="link-items" href="/#contact">
+          <a className="link-items" href="/new-portfolio/#contact">
             Contact
           </a>
         </div>
@@ -32,7 +32,11 @@ const Navbar = () => {
             `}
           onClick={() => setMenuBtn(!menuBtn)}
         >
-          <img src={"../../images/menu.png"} alt="icon-menu" className="w-10" />
+          <img
+            src={"/new-portfolio/images/menu.png"}
+            alt="icon-menu"
+            className="w-10"
+          />
         </button>
       </header>
 
@@ -40,19 +44,19 @@ const Navbar = () => {
         className={`absolute -left-full w-full  flex flex-col gap-2 visible sm:invisible  sm:hidden 
         transition-all text-center ${menuBtn && "menu-active"}`}
       >
-        <a className="link-items-active" href="/">
+        <a className="link-items-active" href="/new-portfolio">
           {" "}
           About me
         </a>
-        <a className="link-items" href="/#skills">
+        <a className="link-items" href="/new-portfolio/#skills">
           {" "}
           Skills
         </a>
-        <a className="link-items" href="/#projects">
+        <a className="link-items" href="/new-portfolio/#projects">
           {" "}
           Projects
         </a>
-        <a className="link-items" href="/#contact">
+        <a className="link-items" href="/new-portfolio/#contact">
           {" "}
           Contact
         </a>
