@@ -29,6 +29,7 @@ const Presentation = () => {
             <a
               className="py-3 px-4  font-semibold text-md bg-blue-600  rounded
                         border border-blue-200 text-white hover:bg-blue-500 hover:border-blue-400 transition-colors"
+              href="/#contact"
             >
               Contact Me!
             </a>
