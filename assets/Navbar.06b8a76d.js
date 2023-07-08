@@ -2,5 +2,5 @@ import{r as i}from"./index.ed373d49.js";import{j as e}from"./jsx-runtime.391947b
               active:bg-neutral-100
               hover:border-blue-300 hover:border
               
-            `,onClick:()=>l(!s),children:e.jsx("img",{src:"../../images/menu.png",alt:"icon-menu",className:"w-10"})})]}),e.jsxs("div",{className:`absolute -left-full w-full  flex flex-col gap-2 visible sm:invisible  sm:hidden 
+            `,onClick:()=>l(!s),children:e.jsx("img",{src:"/new-portfolio/images/menu.png",alt:"icon-menu",className:"w-10"})})]}),e.jsxs("div",{className:`absolute -left-full w-full  flex flex-col gap-2 visible sm:invisible  sm:hidden 
         transition-all text-center ${s&&"menu-active"}`,children:[e.jsxs("a",{className:"link-items-active",href:"/",children:[" ","About me"]}),e.jsxs("a",{className:"link-items",href:"/#skills",children:[" ","Skills"]}),e.jsxs("a",{className:"link-items",href:"/#projects",children:[" ","Projects"]}),e.jsxs("a",{className:"link-items",href:"/#contact",children:[" ","Contact"]})]})]})};export{n as default};
